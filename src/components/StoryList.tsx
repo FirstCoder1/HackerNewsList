@@ -1,7 +1,7 @@
 import { FC } from "react";
-import { useTopList } from "../effect/useTopList";
-import { useStoryList } from "../effect/useStoryList";
-import { useShowNumber } from "../effect/useShowNumber";
+import { useTopList } from "../hook/useTopList";
+import { useStoryList } from "../hook/useStoryList";
+import { useShowNumber } from "../hook/useShowNumber";
 import { LoadingIndicator } from "./LoadingIndicator";
 import { SubStoryList } from "./SubStoryList";
 
