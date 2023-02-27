@@ -1,0 +1,10 @@
+.spinnerContainer {
+    margin: auto;
+    width: calc(100% - 128px);
+    /* height: calc(20% - 128px); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgba(0, 255, 255, 0.1); */
+    /* backdrop-filter: blur(1px); */
+}
