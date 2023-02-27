@@ -282,8 +282,8 @@ const { result } = renderHook(
   ({ topList, showNumber }) => useStoryList(topList, showNumber),
   { initialProps: { topList: mockTopList, showNumber: 20 } }
 );
-describe("useGetData", () => {
-  it('Should initially return an object with state as "loading"', async () => {
+describe("Test UseStoryList", () => {
+  it("test result from UseStoryList", async () => {
     expect(result.current.firstStoryList.length).toBe(17);
     expect(result.current.isLoadingStory).toBe(false);
   });
